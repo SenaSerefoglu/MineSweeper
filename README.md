@@ -34,7 +34,7 @@ This is a console-based implementation of the classic Minesweeper game written i
 - GCC compiler (or any compatible C compiler)
 - Standard C libraries (stdio.h, stdlib.h, time.h)
 
-#Future Improvements
+# Future Improvements
 - Implement flagging for potential mines.
 - Add a win condition check.
 - Improve board display for better user experience.
