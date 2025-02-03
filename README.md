@@ -1,4 +1,3 @@
-# MineSweeper
 # Overview
 This is a console-based implementation of the classic Minesweeper game written in C. The game features a 16x16 board with 40 randomly placed mines. The player must uncover all non-mine cells without triggering a mine.
 
