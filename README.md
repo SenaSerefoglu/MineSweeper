@@ -1,15 +1,15 @@
 # MineSweeper
-#Overview
+# Overview
 This is a console-based implementation of the classic Minesweeper game written in C. The game features a 16x16 board with 40 randomly placed mines. The player must uncover all non-mine cells without triggering a mine.
 
-#Features
+# Features
 - A 16x16 game board initialized at the start.
 - Random placement of 40 mines.
 - Numbering system indicating adjacent mines.
 - Recursive reveal of empty spaces.
 - Game restarts automatically upon hitting a mine.
 
-#How to Play
+# How to Play
 1. Run the program in a terminal.
 2. Enter the row and column indices (0-15) when prompted.
 3. The game will reveal the selected cell:
@@ -18,7 +18,7 @@ This is a console-based implementation of the classic Minesweeper game written i
    - If the cell contains a mine, the game ends and restarts automatically.
 4. Continue revealing cells until all non-mine cells are uncovered.
 
-#Code Structure
+# Code Structure
 - **initializeBoard()**: Initializes the game board and places mines.
 - **resetGame()**: Resets all game variables for a new game.
 - **placeMines()**: Randomly places mines on the board.
@@ -30,7 +30,7 @@ This is a console-based implementation of the classic Minesweeper game written i
 - **gameOver()**: Handles game over scenarios and restarts the game.
 - **main()**: Entry point of the program.
 
-#Requirements
+# Requirements
 - GCC compiler (or any compatible C compiler)
 - Standard C libraries (stdio.h, stdlib.h, time.h)
 
